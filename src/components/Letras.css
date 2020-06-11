@@ -1,0 +1,17 @@
+.containerLetras{
+    border: 1px solid black;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.letra{
+    border: 1px solid gray;
+    padding: 16px 14px;
+    border-radius: 7px;
+    margin: 5px;
+    cursor: pointer;
+}
