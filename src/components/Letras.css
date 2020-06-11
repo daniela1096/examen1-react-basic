@@ -15,3 +15,7 @@
     margin: 5px;
     cursor: pointer;
 }
+
+.activo{
+    background-color: rgba(118, 57, 124, 0.445);
+}

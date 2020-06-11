@@ -9,7 +9,7 @@ import intento4 from "../img/sindospies.jpg";
 import intento5 from "../img/sinunpie.jpg";
 import intento6 from "../img/perdio.jpg";
 
-export default function Juego({ palabraEnJuego, numeroIntentos }) {
+export default function Juego({ palabraEnJuego, numeroIntentos, letraCorrecta }) {
   return (
     <div className="containerJuego">
       <h2>TIENES {numeroIntentos} INTENTOS</h2>
@@ -28,7 +28,7 @@ export default function Juego({ palabraEnJuego, numeroIntentos }) {
       ) : (
         <Imagen imagen={intento6} />
       )}
-      <Raya palabraEnJuego={palabraEnJuego} />
+      <Raya palabraEnJuego={palabraEnJuego} letraCorrecta={letraCorrecta}/>
     </div>
   );
 }
